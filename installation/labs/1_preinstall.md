@@ -22,6 +22,10 @@ xvda                                                                  xvda     5
 └─xvda2 xfs          de4def96-ff72-4eb9-ad5e-0847257d1866 /           └─xvda2  50G root  disk  brw-rw----
 xvdb    ext4         140c7a68-715f-47e4-8c03-f5f1463150c0 /data/disk0 xvdb     80G root  disk  brw-rw----
 xvdc    ext4         889a4b89-458d-4243-8459-0ab23d35b540 /data/disk1 xvdc     80G root  disk  brw-rw----
+
+[root@ip-172-31-29-97 ~]# ls -la /opt /var/log
+lrwxrwxrwx. 1 root root 15 Nov 27 15:06 /opt -> /data/disk0/opt
+lrwxrwxrwx. 1 root root 15 Nov 27 14:53 /var/log -> /data/disk1/log
 ```
 3. If you have `ext`-based volumes, list the reserve space setting
     * XFS volumes do not support reserve space
