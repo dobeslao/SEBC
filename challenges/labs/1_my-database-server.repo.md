@@ -43,18 +43,14 @@ MariaDB [(none)]> SHOW DATABASES;
 +--------------------+
 | Database           |
 +--------------------+
-| amon               |
 | hive               |
 | hue                |
 | information_schema |
-| metastore          |
 | mysql              |
-| nav                |
-| navms              |
 | oozie              |
 | performance_schema |
 | rman               |
-| sentry             |
+| scm                |
 +--------------------+
 ```
 
